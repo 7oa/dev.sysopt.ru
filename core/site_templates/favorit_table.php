@@ -17,7 +17,8 @@
 				<br/><small class="art"><?=$row['ART']?></small>
 			</td>
 			<td style="width: 200px; vertical-align: middle;text-align: right;">
-				<?= number_format($row['PRICE'], 2, '.', ' '); ?>
+			<td style="width: 200px; text-align: right;">
+				<?= number_format($row['PRICE'], 2, '.', ''); ?>
 			</td>
 			<td style="width: 130px; vertical-align: middle;text-align: right;">
 				<a href="#detailCity" class="moreByCity" data-toggle="modal" data-id="<?= $row["PRODUCT_ID"] ?>"><?= $row['QUANTITY'] ?></a>
