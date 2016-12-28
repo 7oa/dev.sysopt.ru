@@ -1,3 +1,11 @@
+.idea/
+/elements.php
+/new.php
+/orders.php
+docs/*.pdf
+!docs/buklet.pdf
+images/*.jpg
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

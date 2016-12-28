@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<point xmlns="http://v8.1c.ru/8.2/virtual-resource-system"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		base="/core/1c"
+		ib="Srvr=&quot;localhost&quot;;Ref=&quot;dev&quot;;"
+		enableStandardOData="true">
+	<ws>
+		<point name="AddressSystem"
+				alias="AddressSystem.1cws"
+				enable="false"/>
+		<point name="CustomerOrdersExchange"
+				alias="CustomerOrdersExchange.1cws"
+				enable="false"/>
+		<point name="ERPMonitor"
+				alias="mr1.1cws"
+				enable="false"/>
+		<point name="Exchange"
+				alias="exchange.1cws"
+				enable="false"/>
+		<point name="Exchange_2_0_1_6"
+				alias="exchange_2_0_1_6.1cws"
+				enable="false"/>
+		<point name="InterfaceVersion"
+				alias="InterfaceVersion.1cws"
+				enable="false"/>
+		<point name="ManagedApplication_1_0_0_1"
+				alias="ManagedApplication_1_0_0_1.1cws"
+				enable="false"/>
+		<point name="MessageExchange"
+				alias="messageexchange.1cws"
+				enable="false"/>
+		<point name="MessageExchange_2_0_1_6"
+				alias="messageexchange_2_0_1_6.1cws"
+				enable="false"/>
+		<point name="RemoteAdministrationOfExchange"
+				alias="RemoteAdministrationOfExchange.1cws"
+				enable="false"/>
+		<point name="RemoteAdministrationOfExchange_2_0_1_6"
+				alias="RemoteAdministrationOfExchange_2_0_1_6.1cws"
+				enable="false"/>
+		<point name="RemoteAdministrationOfExchange_2_1_6_1"
+				alias="RemoteAdministrationOfExchange_2_1_6_1.1cws"
+				enable="false"/>
+		<point name="RemoteControl"
+				alias="RemoteControl.1cws"
+				enable="false"/>
+		<point name="SSOK"
+				alias="ssok_srv.1cws"
+				enable="true"/>
+	</ws>
+	<httpServices publishByDefault="false"/>
+</point>

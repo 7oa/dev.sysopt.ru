@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"] . "/core/include/start.php");?>

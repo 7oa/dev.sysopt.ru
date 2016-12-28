@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"] . TEMPLATE_PATH. "/footer.php");?>
